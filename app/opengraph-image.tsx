@@ -165,7 +165,7 @@ export default async function OpengraphImage() {
             }}
           >
             <span style={{ color: "#34d399", marginRight: 10 }}>$</span>
-            pip install rogiant
+            pip install rogiant-install
           </div>
         </div>
       </div>

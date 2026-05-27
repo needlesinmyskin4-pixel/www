@@ -21,12 +21,12 @@ user = client.users.get_by_id(156)
 print(user.username)`
 
 const installOutput = [
-  "Collecting rogiant",
-  "  Downloading rogiant-1.0.0-py3-none-any.whl (84 kB)",
+  "Collecting rogiant-install",
+  "  Downloading rogiant_install-1.0.0-py3-none-any.whl (84 kB)",
   "Collecting httpx>=0.27",
   "Collecting pydantic>=2.6",
-  "Installing collected packages: pydantic, httpx, rogiant",
-  "Successfully installed rogiant-1.0.0",
+  "Installing collected packages: pydantic, httpx, rogiant-install",
+  "Successfully installed rogiant-install-1.0.0",
 ]
 
 const tableOfContents = [
@@ -110,7 +110,7 @@ export default function WelcomePage() {
             <span className="font-semibold">Install now:</span>
             <span>Get started with Rogiant by running</span>
             <code className="rounded bg-white px-2 py-0.5 text-sm font-mono border border-blue-200 whitespace-nowrap">
-              pip install rogiant
+              pip install rogiant-install
             </code>
             <span>or check out the</span>
             <Link
@@ -145,7 +145,7 @@ export default function WelcomePage() {
         <section id="quick-start" className="mb-10 animate-fade-up">
           <h2 className="text-2xl font-bold text-foreground mb-4">Quick Start</h2>
           <AnimatedCodeBlock
-            code="pip install rogiant"
+            code="pip install rogiant-install"
             filename="Terminal"
             variant="shell"
             output={installOutput}

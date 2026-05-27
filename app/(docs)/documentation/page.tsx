@@ -4,7 +4,7 @@ import Link from "next/link"
 import { AnimatedCodeBlock } from "@/components/animated-code-block"
 import { Check, Database, Clock, Shield, Cloud, ArrowRight } from "lucide-react"
 
-const installCode = `pip install rogiant`
+const installCode = `pip install rogiant-install`
 
 const basicUsageCode = `from rogiant import RogiantClient
 
